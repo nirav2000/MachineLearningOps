@@ -47,6 +47,12 @@ Type git clone, and then paste the URL you copied in Step 2.
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY  #https://github.com/nirav2000/MachineLearningOps.git
 
+## Install AMLSDK for Python
+
+https://docs.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py
+
+pip install --upgrade azureml-sdk
+
 ## Open Jupyter Notebook
 
 - In CMD/PoweShell (maybe with Admin rights)
