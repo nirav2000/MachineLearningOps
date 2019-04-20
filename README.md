@@ -35,6 +35,24 @@ For Mac users (additional steps below):
 
 - **Install wget: brew update && brew install wget** 
 
+## Clone this GitHub repository locally
+
+#From https://help.github.com/en/articles/cloning-a-repository
+
+Open Git Bash.
+
+Change the current working directory to the location where you want the cloned directory to be made.
+
+Type git clone, and then paste the URL you copied in Step 2.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY  #https://github.com/nirav2000/MachineLearningOps.git
+
+## Open Jupyter Notebook
+
+- In CMD/PoweShell (maybe with Admin rights)
+- move into the clone GitHub directory
+- run: jypter notebook (should load notebook in browser or give a url) #if it doesn't work it may be because it cant find anaconda, either make sure its setup in your system environment variables or type out full directory of where jypter is located
+
 ## Redeem your Azure account promo code
 
 The steps below outline how you can redeem your promo code and create your new Azure account. However, if you already have an Azure account please feel free to use that as that is the preferred option. Alternatively, follow the steps below to create a new one using the promo codes we have provided you. Note, the accounts with the promo code will expire after 7 days and they come with a $50 limit.
